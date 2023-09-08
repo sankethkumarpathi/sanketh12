@@ -17,7 +17,7 @@ public class demo {
   Workbook wb = WorkbookFactory.create(fis);
   
 		String data= wb.getSheet("Sheet1").getRow(0).getCell(0).getStringCellValue();
-		System.out.println(data);
+		System.out.println(data12);
 						
 	 			
 				
